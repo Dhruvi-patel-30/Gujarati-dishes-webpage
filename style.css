@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-width: 100vh;
+    background: #f8f8f8;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    font-weight: 550;
+}
+.logo{
+    font-size: 24px;
+}
+.hero{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-image: url(img/khandavi.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 100px;
+    border-top:1px solid #f8f8f8;
+
+}
+.sarceh_box,.submit {
+    max-width: 550px;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+.hero h2{
+    font-size: 36px;
+    letter-spacing: 1px
+}
+.hero p{
+    letter-spacing: 1px;
+    font-weight: 400;
+
+
+}
+
+
+/*  dishes_section.......  */
+
+.dishes {
+    padding: 50px 0;
+}
+.dishes h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.dishes_section{
+    display: flex;
+    margin-top: 10px;
+
+}
+.dished_card{
+    margin: 2px;
+    justify-content: space-evenly;
+}
